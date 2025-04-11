@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Play Arena</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Play Arena Logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Play <span class="dropdown-icon">▼</span></a></li>
+      <li><a href="#">Participate <span class="dropdown-icon">▼</span></a></li>
+      <li><a href="#">Host <span class="dropdown-icon">▼</span></a></li>
+      <li><a href="#">F&B <span class="dropdown-icon">▼</span></a></li>
+      <li><a href="#">About Us <span class="dropdown-icon">▼</span></a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-section">
+    <div class="hero-bg">
+      <img src="./net.jpg" alt="Cricket net background" />
+    </div>
+
+    <div class="activity-cards" id="activityCards">
+      <div class="card1 prime active">
+        <h3>🛡 Prime</h3>
+        <p>Strategy and action sports for the squad</p>
+        <button>View All 5 Activities</button>
+      </div>
+      <div class="card1 studio">
+        <h3>🎬 Studio</h3>
+        <p>Short format, big thrills served a la carte</p>
+        <button>View All 8 Activities</button>
+      </div>
+      <div class="card1 union">
+        <h3>⚔ Union</h3>
+        <p>Classic favourites for the recreational sport</p>
+        <button>View All 7 Activities</button>
+      </div>
+      <div class="card1 junior">
+        <h3>🧒 Junior</h3>
+        <p>Toddler-sized fun for little champs</p>
+        <button>View All 2 Activities</button>
+      </div>
+      <div class="card1 pixel">
+        <h3>🎮 Pixel</h3>
+        <p>Shoot, race and more in the gamer’s den</p>
+        <button>View All 9 Activities</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="play-your-way">
+    <h2>Play, Your Way</h2>
+    <p>
+      When it comes to get-togethers, the more is always the merrier. You bring the people, we’ll take care of the rest.
+      Call us for customized birthdays, farewells, anniversaries and other events or group packages with entertainment,
+      music and a fantastic range of F&amp;B to choose from.
+    </p>
+  </section>
+
+  <section class="event-section">
+    <div class="event-card">
+      <div class="icon">🎂</div>
+      <h3>Birthday Bashes</h3>
+      <img src="birthday.png" alt="Birthday Bash" />
+      <p>Thrilling activities, exciting games, and delicious food—our custom packages ensure unforgettable experiences for all ages!</p>
+      <button>Find out more →</button>
+    </div>
+
+    <div class="event-card">
+      <div class="icon">💼</div>
+      <h3>Corporate Events</h3>
+      <img src="corporate.png" alt="Corporate Events" />
+      <p>Nothing like a game to get the teamwork going. Talk to us to find out more about our corporate packages for offsites, team building, leadership meets, and more.</p>
+      <button>Find out more →</button>
+    </div>
+
+    <div class="event-card">
+      <div class="icon">❤️</div>
+      <h3>Play Dates</h3>
+      <img src="playdate.png" alt="Play Dates" />
+      <p>Experience Play Dates, any day of the week, enjoy this special offer and quality time with your partner. Perfect for fun and connection!</p>
+      <button>Find out more →</button>
+    </div>
+  </section>
+  <section class="carousel-container">
+    <button class="arrow" id="leftBtn">&#9664;</button> <!-- Left Arrow -->
+    
+    <div class="carousel" id="carousel">
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1015/400/250" alt="Card 1" />
+        <h3 class="title">Archery</h3>
+        <p class="desc">Aim and shoot at targets to test your precision and focus.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1025/400/250" alt="Card 2" />
+        <h3 class="title">Paintball</h3>
+        <p class="desc">Team up and experience the thrill of tactical combat.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1035/400/250" alt="Card 3" />
+        <h3 class="title">Skating</h3>
+        <p class="desc">Glide and spin with speed and balance on smooth tracks.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1045/400/250" alt="Card 4" />
+        <h3 class="title">Go Karting</h3>
+        <p class="desc">Race against friends on thrilling karting tracks.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1055/400/250" alt="Card 5" />
+        <h3 class="title">Laser Tag</h3>
+        <p class="desc">Step into a high-tech arena with lights and lasers.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1065/400/250" alt="Card 6" />
+        <h3 class="title">Bungee Soccer</h3>
+        <p class="desc">Play soccer while bouncing on elastic ropes.</p>
+      </div>
+      <div class="card">
+        <img class="img" src="https://picsum.photos/id/1075/400/250" alt="Card 7" />
+        <h3 class="title">Trampoline</h3>
+        <p class="desc">Jump and flip with joy on safe, springy trampolines.</p>
+      </div>
+    </div>
+  
+    <button class="arrow" id="rightBtn">&#9654;</button> <!-- Right Arrow -->
+  </section>
+  
+  <script src="script.js"></script>
+  
+
+  <section class="main-footer">
+    <div class="newsletter">
+      <h2>Never miss an update</h2>
+      <p>Subscribe to our Newsletter</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter Email ID" required />
+        <button type="submit">➤</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Play Arena Sports & Adventure Pvt. Ltd.</h4>
+        <p>Sy#75, Hosa Road, off Sarjapur Road,<br />
+          opp Silverwood Regency Apartments,<br />
+          Kasavanahalli, Bangalore 560035</p>
+        <div class="social-icons">
+          <a href="#"><img src="youtube-icon.png" alt="YouTube" /></a>
+          <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Play</h4>
+        <p>Prime</p>
+        <p>Pixel</p>
+        <p>Studio</p>
+        <p>Union</p>
+        <p>Junior</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Participate</h4>
+        <p>Up Your Game</p>
+        <p>Events</p>
+
+        <h4>Host</h4>
+        <p>Birthdays at PlaY</p>
+        <p>Corporate events</p>
+        <p>Make an Enquiry</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Food & Beverages</h4>
+        <p>Food Court</p>
+        <p>Restaurant</p>
+
+        <h4>Contact</h4>
+        <p>99000 999 22</p>
+        <p>info@playarena.in</p>
+        <p>Get Directions</p>
+
+        <h4>About Us</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Play Arena. All rights reserved.</p>
+  </footer>
+</body>
+</html>
